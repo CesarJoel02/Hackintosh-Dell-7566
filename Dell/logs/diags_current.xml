@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>114</LogNumber>
-    <LogTimeStamp>01/24/2020 15:58:35</LogTimeStamp>
+    <LogNumber>115</LogNumber>
+    <LogTimeStamp>02/13/2020 00:34:25</LogTimeStamp>
     <ePSA_Data>
       <Result>Not Reported</Result>
-      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <ReturnCode>BOOT_F2</ReturnCode>
       <ePSAFullVersion>4304.12</ePSAFullVersion>
-      <ePSAInvocationCount>2</ePSAInvocationCount>
+      <ePSAInvocationCount>3</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
       <ErrorCategory>BATTERY</ErrorCategory>
-      <ErrorMessage><![CDATA[WARNING: Battery is low.
+      <ErrorMessage><![CDATA[WARNING: Battery is critically low.
 ]]></ErrorMessage>
       <FRU_String><![CDATA[Unknown Battery]]></FRU_String>
       <SOS_Available>FALSE</SOS_Available>

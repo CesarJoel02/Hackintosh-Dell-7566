@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>113</LogNumber>
-    <LogTimeStamp>01/24/2020 15:49:52</LogTimeStamp>
+    <LogNumber>114</LogNumber>
+    <LogTimeStamp>01/24/2020 15:58:35</LogTimeStamp>
     <ePSA_Data>
       <Result>Not Reported</Result>
       <ReturnCode>BOOT_HOST_OS</ReturnCode>
       <ePSAFullVersion>4304.12</ePSAFullVersion>
-      <ePSAInvocationCount>1</ePSAInvocationCount>
+      <ePSAInvocationCount>2</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
       <ErrorCategory>BATTERY</ErrorCategory>
