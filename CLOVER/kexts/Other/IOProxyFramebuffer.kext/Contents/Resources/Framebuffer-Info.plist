@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.frescologic.ProxyFramebuffer</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleRequired</key>
+	<string>Root</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.1</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>IOProxyFramebuffer</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.frescologic.ProxyFramebuffer</string>
+			<key>IOCFPlugInTypes</key>
+			<string></string>
+			<key>IOClass</key>
+			<string>com_frescologic_ProxyFramebuffer</string>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>compatible</key>
+				<string>proxyVideoHead</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>com_frescologic_ProxyVideoHead</string>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.1</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOGraphicsFamily</key>
+		<string>2.4.1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>15.6</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>15.6</string>
+		<key>com.apple.kpi.mach</key>
+		<string>15.6</string>
+		<key>com.frescologic.ProxyVideoCard</key>
+		<string>1.1</string>
+	</dict>
+</dict>
+</plist>
